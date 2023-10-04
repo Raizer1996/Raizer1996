@@ -24,8 +24,7 @@ Experienced as an Air-Defense Officer, where I performed in several roles acquir
 * 🧠  I'm learning SOC and Red Teaming
 * 🤝  I'm open to collaborating on Cyber projects/Cyber investigation/
 
-Try Hack Me
-
+### Try Hack Me
 
 <p align="left">
 <img src="https://tryhackme-badges.s3.amazonaws.com/Raizer96.png" alt="TryHackMe">
