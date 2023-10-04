@@ -30,7 +30,7 @@ Experienced as an Air-Defense Officer, where I performed in several roles acquir
 * 🌍  I'm based in Israel / Ashdod
 * ✉️  You can contact me at [artmbordulev@gmail.com](mailto:artmbordulev@gmail.com)
 * 🧠  I'm learning SOC and Red Teaming
-* 🤝  I'm open to collaborating on Cyber projects/Cyber investigation/
+* 🤝  I'm open to collaborating on Cyber projects/Cyber investigation
 
 ### Try Hack Me
 
