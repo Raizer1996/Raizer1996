@@ -24,8 +24,29 @@ Experienced as an Air-Defense Officer, where I performed in several roles acquir
 * 🧠  I'm learning SOC and Red Teaming
 * 🤝  I'm open to collaborating on Cyber projects/Cyber investigation/
 
+###Try Hack Me
+name: TryHackMe Update Badge
+
+on:
+  schedule:
+    # Make it run every 24 hour
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+jobs:
+  tryhackme-badge-update:
+    name: Update this repo's tryhackme badge with the latest tryhackme image badge
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: p4p1/tryhackme-badge-workflow@main
+        with:
+          # Replace with your tryhackme username
+          username: "<Raizer96>"
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+
 ### Skills
-<script src="https://tryhackme.com/badge/1635863"></script>
+
 
 <p align="left">
 <a href="https://www.oracle.com/java/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/java-colored.svg" width="36" height="36" alt="Java" /></a><a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg" width="36" height="36" alt="Python" /></a><a href="https://aws.amazon.com" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/aws-colored.svg" width="36" height="36" alt="Amazon Web Services" /></a><a href="https://www.linux.org" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/linux-colored.svg" width="36" height="36" alt="Linux" /></a>
