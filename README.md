@@ -24,25 +24,11 @@ Experienced as an Air-Defense Officer, where I performed in several roles acquir
 * 🧠  I'm learning SOC and Red Teaming
 * 🤝  I'm open to collaborating on Cyber projects/Cyber investigation/
 
-###Try Hack Me
-name: TryHackMe Update Badge
+Try Hack Me
 
-on:
-  schedule:
-    # Make it run every 24 hour
-    - cron: '0 0 * * *'
-  workflow_dispatch:
-jobs:
-  tryhackme-badge-update:
-    name: Update this repo's tryhackme badge with the latest tryhackme image badge
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: p4p1/tryhackme-badge-workflow@main
-        with:
-          # Replace with your tryhackme username
-          username: "<Raizer96>"
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+<p align="left">
+<img src="https://tryhackme-badges.s3.amazonaws.com/Raizer96.png" alt="TryHackMe">
 
 
 ### Skills
