@@ -7,14 +7,22 @@ SOC Analyst | Computer Science Student | EX IADF Officer
 Hi, I’m Soc Analyst and a student of Computer Science. By working in the cybersecurity industry and simultaneously studying the Computer Science field, I am trying to expand my skills and knowledge to become a well-rounded professional capable of tackling complex challenges in both areas. I believe that the combination of hands-on experience in cybersecurity and theoretical knowledge in Computer Science will not only enhance my career prospects but also enable me to contribute meaningfully to the ever-changing world of technology and security. I am dedicated to continuous learning and staying up-to-date with the latest developments in both fields to make a positive impact in the digital realm. 
 
 Experienced as an Air-Defense Officer, where I performed in several roles acquiring skills in a few fields, including: 
+
 📝 Project management 
+
 📌 Functioning under pressure 
+
 🕺 Instructional skills My main skills are: 
+
   💡 Creative Problem Solving I prefer that problems are "questions" that we still didn't find the answer for. When it more challenging, I feel very more exited to find out how to solve that "question". 
+  
   🏃🏻‍♂️ Leadership I believe that any if you can't lead yourself-you can't lead anyone. All this starts from personal example. By trying to do the best that I possibly can, I can lead my team to victory through any challenge. In Military as CO I saw that team that know   
      what they are doing and why, have no boundaries. 
+     
   📚 Fast Learning I love to learn. Thirsty to acquire knowledge and see progress in various areas of my life. Along the way, I learned from mistakes and gained initial experience that helped me understand things better. 
+  
   💻 Work Ethic "Sleepers get only dreams" We can't achieve anything if we didn't work. By Hard work we will see our Best Result.
+  
   🏆 Team Player Any team want me on their side.
   
   I'm loyal to my team and to our ideas and know how to win and will do everything for me and my team to achieve it. I am a very sociable person and like meeting new people and making conversation. If you read so far, I encourage you to send me a message 😊
