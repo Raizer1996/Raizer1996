@@ -1,7 +1,7 @@
 Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Artyom
 ==============================================================================================================================
 
-SOC Analyst | Computer Science Student | EX IADF Officer
+SOC Analyst | Red Team | EX IADF Officer | Notion Expert
 --------------------------------------------------------
 
 Cybersecurity specialist with over 2 years of hands-on experience in Cyber Security, Incident Investigation, Incident Response, Threat Hunting, and Research. Skilled in both defensive and offensive security, with proven expertise in identifying, investigating, and mitigating threats by analyzing incidents and conducting proactive threat hunting. Practical Penetration Testing background enables a holistic approach combining incident response with adversarial simulation for robust organizational protection.
