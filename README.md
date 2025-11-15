@@ -29,8 +29,8 @@ Driven by continuous learning and innovation, I aim to bridge defensive expertis
 <!-- Skills – icons only -->
 <p align="left">
   <!-- CrowdStrike & ArcSight via vectorlogo.zone -->
-  <img src="https://www.vectorlogo.zone/logos/crowdstrike/crowdstrike-icon.svg" height="32" alt="CrowdStrike" title="CrowdStrike" />
-  <img src="https://www.vectorlogo.zone/logos/microfocus/microfocus-icon.svg" height="32" alt="ArcSight (Micro Focus)" title="ArcSight (Micro Focus)" />
+  <img src="https://cdn.worldvectorlogo.com/logos/crowdstrike-1.svg" height="32" alt="CrowdStrike" title="CrowdStrike" />
+  <img src="https://logodix.com/logo/2096924.png" height="32" alt="ArcSight (Micro Focus)" title="ArcSight" />
 
   <!-- Others (tinted for dark theme with ?color=...) -->
   <img src="https://cdn.simpleicons.org/elastic/00A3E0" height="32" alt="Elastic" title="Elastic / ELK" />
