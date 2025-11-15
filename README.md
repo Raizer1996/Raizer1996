@@ -8,7 +8,7 @@ Cybersecurity specialist with over 2 years of hands-on experience in Cyber Secur
 
 Completed Cyber Security Penetration Tester Course at See Security College, with a hands-on focus on offensive security, red teaming, exploitation, and advanced attack simulations
 
-Strong foundation for 5 years from Military. 
+Strong foundation for 5 years as a Military Officer. 
 
 Core strengths:
 1) Advanced threat detection, incident response, and comprehensive investigations
