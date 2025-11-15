@@ -27,85 +27,25 @@ Driven by continuous learning and innovation, I aim to bridge defensive expertis
 
 ### Skills
 
-## Skills
+<!-- Skills – icons only -->
+<p align="left">
+  <!-- EDR / SIEM -->
+  <img src="https://cdn.simpleicons.org/crowdstrike"        height="32" alt="CrowdStrike" title="CrowdStrike" />
+  <img src="https://cdn.simpleicons.org/microfocus"         height="32" alt="ArcSight"    title="ArcSight" />
+  <img src="https://cdn.simpleicons.org/elastic"            height="32" alt="Elastic"     title="Elastic / ELK" />
 
-<!-- Legend -->
-<a href="#"><img alt="Expert" src="https://img.shields.io/badge/Expert-6f42c1.svg" /></a>
-<a href="#"><img alt="Experienced" src="https://img.shields.io/badge/Experienced-1f6feb.svg" /></a>
-<a href="#"><img alt="Skillful" src="https://img.shields.io/badge/Skillful-2da44e.svg" /></a>
+  <!-- Productivity -->
+  <img src="https://cdn.simpleicons.org/notion"             height="32" alt="Notion"      title="Notion" />
 
-<table>
-  <tr>
-    <th align="left">Skill</th>
-    <th align="left">Level</th>
-    <th align="left">Skill</th>
-    <th align="left">Level</th>
-  </tr>
+  <!-- Scripting / Langs -->
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg"           height="32" alt="Bash"        title="Shell Scripting (Bash)" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"       height="32" alt="Python"      title="Python" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"         height="32" alt="HTML"        title="HTML" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"           height="32" alt="CSS"         title="CSS" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="32" alt="JavaScript" title="JavaScript" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"           height="32" alt="Java"        title="Java" />
+</p>
 
-  <tr>
-    <td><img src="https://cdn.simpleicons.org/crowdstrike" height="18" alt="CrowdStrike" />&nbsp;CrowdStrike</td>
-    <td><img alt="Experienced" src="https://img.shields.io/badge/Experienced-1f6feb.svg"></td>
-
-    <td>Ethical Hacking</td>
-    <td><img alt="Experienced" src="https://img.shields.io/badge/Experienced-1f6feb.svg"></td>
-  </tr>
-
-  <tr>
-    <td><img src="https://cdn.simpleicons.org/microfocus" height="18" alt="ArcSight (Micro Focus)" />&nbsp;ArcSight</td>
-    <td><img alt="Experienced" src="https://img.shields.io/badge/Experienced-1f6feb.svg"></td>
-
-    <td>Web &amp; Software Penetration</td>
-    <td><img alt="Experienced" src="https://img.shields.io/badge/Experienced-1f6feb.svg"></td>
-  </tr>
-
-  <tr>
-    <td><img src="https://cdn.simpleicons.org/elastic" height="18" alt="Elastic" />&nbsp;Elastic</td>
-    <td><img alt="Experienced" src="https://img.shields.io/badge/Experienced-1f6feb.svg"></td>
-
-    <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" height="18" alt="Bash" />&nbsp;Shell Scripting</td>
-    <td><img alt="Skillful" src="https://img.shields.io/badge/Skillful-2da44e.svg"></td>
-  </tr>
-
-  <tr>
-    <td><img src="https://cdn.simpleicons.org/notion" height="18" alt="Notion" />&nbsp;Notion</td>
-    <td><img alt="Expert" src="https://img.shields.io/badge/Expert-6f42c1.svg"></td>
-
-    <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="18" alt="Python" />&nbsp;Python</td>
-    <td><img alt="Experienced" src="https://img.shields.io/badge/Experienced-1f6feb.svg"></td>
-  </tr>
-
-  <tr>
-    <td>Team Player</td>
-    <td><img alt="Expert" src="https://img.shields.io/badge/Expert-6f42c1.svg"></td>
-
-    <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="18" alt="HTML" />&nbsp;HTML</td>
-    <td><img alt="Skillful" src="https://img.shields.io/badge/Skillful-2da44e.svg"></td>
-  </tr>
-
-  <tr>
-    <td>Critical Thinking</td>
-    <td><img alt="Expert" src="https://img.shields.io/badge/Expert-6f42c1.svg"></td>
-
-    <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="18" alt="CSS" />&nbsp;CSS</td>
-    <td><img alt="Skillful" src="https://img.shields.io/badge/Skillful-2da44e.svg"></td>
-  </tr>
-
-  <tr>
-    <td>Team &amp; Project Management</td>
-    <td><img alt="Experienced" src="https://img.shields.io/badge/Experienced-1f6feb.svg"></td>
-
-    <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="18" alt="JavaScript" />&nbsp;JavaScript</td>
-    <td><img alt="Skillful" src="https://img.shields.io/badge/Skillful-2da44e.svg"></td>
-  </tr>
-
-  <tr>
-    <td>Problem Solving</td>
-    <td><img alt="Expert" src="https://img.shields.io/badge/Expert-6f42c1.svg"></td>
-
-    <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="18" alt="Java" />&nbsp;Java</td>
-    <td><img alt="Skillful" src="https://img.shields.io/badge/Skillful-2da44e.svg"></td>
-  </tr>
-</table>
 
 
 
