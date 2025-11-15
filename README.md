@@ -26,12 +26,13 @@ Driven by continuous learning and innovation, I aim to bridge defensive expertis
 
 
 ### Skills
-<!-- Badges for proficiency levels (re-use everywhere) -->
-<!-- Colors: Expert = purple, Experienced = blue, Skillful = green -->
-<!-- You can change the colors by tweaking the last hex code -->
-<a href="#skills"><img alt="Expert" src="https://img.shields.io/badge/Expert-6f42c1.svg" /></a>
-<a href="#skills"><img alt="Experienced" src="https://img.shields.io/badge/Experienced-1f6feb.svg" /></a>
-<a href="#skills"><img alt="Skillful" src="https://img.shields.io/badge/Skillful-2da44e.svg" /></a>
+
+## Skills
+
+<!-- Legend -->
+<a href="#"><img alt="Expert" src="https://img.shields.io/badge/Expert-6f42c1.svg" /></a>
+<a href="#"><img alt="Experienced" src="https://img.shields.io/badge/Experienced-1f6feb.svg" /></a>
+<a href="#"><img alt="Skillful" src="https://img.shields.io/badge/Skillful-2da44e.svg" /></a>
 
 <table>
   <tr>
@@ -41,109 +42,71 @@ Driven by continuous learning and innovation, I aim to bridge defensive expertis
     <th align="left">Level</th>
   </tr>
 
-  <!-- Row 1 -->
   <tr>
-    <td>
-      <img src="https://cdn.simpleicons.org/crowdstrike" height="18" alt="CrowdStrike" />
-      &nbsp;CrowdStrike
-    </td>
+    <td><img src="https://cdn.simpleicons.org/crowdstrike" height="18" alt="CrowdStrike" />&nbsp;CrowdStrike</td>
     <td><img alt="Experienced" src="https://img.shields.io/badge/Experienced-1f6feb.svg"></td>
 
     <td>Ethical Hacking</td>
     <td><img alt="Experienced" src="https://img.shields.io/badge/Experienced-1f6feb.svg"></td>
   </tr>
 
-  <!-- Row 2 -->
   <tr>
-    <td>
-      <!-- ArcSight icon isn't in SimpleIcons; using Micro Focus brand as closest vendor mark -->
-      <img src="https://cdn.simpleicons.org/microfocus" height="18" alt="ArcSight (Micro Focus)" />
-      &nbsp;ArcSight
-    </td>
+    <td><img src="https://cdn.simpleicons.org/microfocus" height="18" alt="ArcSight (Micro Focus)" />&nbsp;ArcSight</td>
     <td><img alt="Experienced" src="https://img.shields.io/badge/Experienced-1f6feb.svg"></td>
 
     <td>Web &amp; Software Penetration</td>
     <td><img alt="Experienced" src="https://img.shields.io/badge/Experienced-1f6feb.svg"></td>
   </tr>
 
-  <!-- Row 3 -->
   <tr>
-    <td>
-      <img src="https://cdn.simpleicons.org/elastic" height="18" alt="Elastic" />
-      &nbsp;Elastic
-    </td>
+    <td><img src="https://cdn.simpleicons.org/elastic" height="18" alt="Elastic" />&nbsp;Elastic</td>
     <td><img alt="Experienced" src="https://img.shields.io/badge/Experienced-1f6feb.svg"></td>
 
-    <td>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" height="18" alt="Bash" />
-      &nbsp;Shell Scripting
-    </td>
+    <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" height="18" alt="Bash" />&nbsp;Shell Scripting</td>
     <td><img alt="Skillful" src="https://img.shields.io/badge/Skillful-2da44e.svg"></td>
   </tr>
 
-  <!-- Row 4 -->
   <tr>
-    <td>
-      <img src="https://cdn.simpleicons.org/notion" height="18" alt="Notion" />
-      &nbsp;Notion
-    </td>
+    <td><img src="https://cdn.simpleicons.org/notion" height="18" alt="Notion" />&nbsp;Notion</td>
     <td><img alt="Expert" src="https://img.shields.io/badge/Expert-6f42c1.svg"></td>
 
-    <td>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="18" alt="Python" />
-      &nbsp;Python
-    </td>
+    <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="18" alt="Python" />&nbsp;Python</td>
     <td><img alt="Experienced" src="https://img.shields.io/badge/Experienced-1f6feb.svg"></td>
   </tr>
 
-  <!-- Row 5 -->
   <tr>
     <td>Team Player</td>
     <td><img alt="Expert" src="https://img.shields.io/badge/Expert-6f42c1.svg"></td>
 
-    <td>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="18" alt="HTML" />
-      &nbsp;HTML
-    </td>
+    <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="18" alt="HTML" />&nbsp;HTML</td>
     <td><img alt="Skillful" src="https://img.shields.io/badge/Skillful-2da44e.svg"></td>
   </tr>
 
-  <!-- Row 6 -->
   <tr>
     <td>Critical Thinking</td>
     <td><img alt="Expert" src="https://img.shields.io/badge/Expert-6f42c1.svg"></td>
 
-    <td>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="18" alt="CSS" />
-      &nbsp;CSS
-    </td>
+    <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="18" alt="CSS" />&nbsp;CSS</td>
     <td><img alt="Skillful" src="https://img.shields.io/badge/Skillful-2da44e.svg"></td>
   </tr>
 
-  <!-- Row 7 -->
   <tr>
     <td>Team &amp; Project Management</td>
     <td><img alt="Experienced" src="https://img.shields.io/badge/Experienced-1f6feb.svg"></td>
 
-    <td>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="18" alt="JavaScript" />
-      &nbsp;JavaScript
-    </td>
+    <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="18" alt="JavaScript" />&nbsp;JavaScript</td>
     <td><img alt="Skillful" src="https://img.shields.io/badge/Skillful-2da44e.svg"></td>
   </tr>
 
-  <!-- Row 8 -->
   <tr>
     <td>Problem Solving</td>
     <td><img alt="Expert" src="https://img.shields.io/badge/Expert-6f42c1.svg"></td>
 
-    <td>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="18" alt="Java" />
-      &nbsp;Java
-    </td>
+    <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="18" alt="Java" />&nbsp;Java</td>
     <td><img alt="Skillful" src="https://img.shields.io/badge/Skillful-2da44e.svg"></td>
   </tr>
 </table>
+
 
 
 ### Socials
