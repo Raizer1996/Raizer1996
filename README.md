@@ -8,7 +8,7 @@ Cybersecurity specialist with over 2 years of hands-on experience in Cyber Secur
 
 Completed Cyber Security Penetration Tester Course at See Security College, with a hands-on focus on offensive security, red teaming, exploitation, and advanced attack simulations
 
-Strong foundation for 5 years as an Officer in the Israeli Air Force. 
+Strong foundation for 5 years from Military. 
 
 Core strengths:
 1) Advanced threat detection, incident response, and comprehensive investigations
@@ -17,14 +17,10 @@ Core strengths:
 4) Team leadership and cross-functional collaboration
 
 Driven by continuous learning and innovation, I aim to bridge defensive expertise with offensive penetration testing skills to deliver holistic cybersecurity solutions.
-
-* 🌍  I'm based in Israel / Ashdod
 * ✉️  You can contact me at [artmbordulev@gmail.com](mailto:artmbordulev@gmail.com)
-* 🧠  I'm learning SOC and Red Teaming
 * 🤝  I'm open to collaborating on Cyber projects/Cyber investigation
 
 ### Try Hack Me
-
 <p align="left">
 <img src="https://tryhackme-badges.s3.amazonaws.com/Raizer96.png" alt="TryHackMe">
 
