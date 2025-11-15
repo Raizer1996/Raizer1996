@@ -26,24 +26,22 @@ Driven by continuous learning and innovation, I aim to bridge defensive expertis
 
 
 ### Skills
-
 <!-- Skills – icons only -->
 <p align="left">
-  <!-- EDR / SIEM -->
-  <img src="https://cdn.simpleicons.org/crowdstrike"        height="32" alt="CrowdStrike" title="CrowdStrike" />
-  <img src="https://cdn.simpleicons.org/microfocus"         height="32" alt="ArcSight"    title="ArcSight" />
-  <img src="https://cdn.simpleicons.org/elastic"            height="32" alt="Elastic"     title="Elastic / ELK" />
+  <!-- CrowdStrike & ArcSight via vectorlogo.zone -->
+  <img src="https://www.vectorlogo.zone/logos/crowdstrike/crowdstrike-icon.svg" height="32" alt="CrowdStrike" title="CrowdStrike" />
+  <img src="https://www.vectorlogo.zone/logos/microfocus/microfocus-icon.svg" height="32" alt="ArcSight (Micro Focus)" title="ArcSight (Micro Focus)" />
 
-  <!-- Productivity -->
-  <img src="https://cdn.simpleicons.org/notion"             height="32" alt="Notion"      title="Notion" />
+  <!-- Others (tinted for dark theme with ?color=...) -->
+  <img src="https://cdn.simpleicons.org/elastic/00A3E0" height="32" alt="Elastic" title="Elastic / ELK" />
+  <img src="https://cdn.simpleicons.org/notion/ffffff" height="32" alt="Notion" title="Notion" />
 
-  <!-- Scripting / Langs -->
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg"           height="32" alt="Bash"        title="Shell Scripting (Bash)" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"       height="32" alt="Python"      title="Python" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"         height="32" alt="HTML"        title="HTML" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"           height="32" alt="CSS"         title="CSS" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" height="32" alt="Bash" title="Shell Scripting" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="32" alt="Python" title="Python" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="32" alt="HTML" title="HTML" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="32" alt="CSS" title="CSS" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="32" alt="JavaScript" title="JavaScript" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"           height="32" alt="Java"        title="Java" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="32" alt="Java" title="Java" />
 </p>
 
 
