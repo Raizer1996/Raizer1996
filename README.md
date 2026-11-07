@@ -27,7 +27,6 @@ Driven by continuous learning and innovation, I aim to bridge defensive expertis
 <p align="left">
 <img src="https://tryhackme-badges.s3.amazonaws.com/Raizer96.png" alt="TryHackMe">
 
-
 ### Skills
 <!-- Skills – icons only -->
 <p align="left">
@@ -36,7 +35,7 @@ Driven by continuous learning and innovation, I aim to bridge defensive expertis
   <img src="https://cdn.worldvectorlogo.com/logos/crowdstrike-1.svg" height="32" alt="CrowdStrike" title="CrowdStrike" />
   <img src="https://logodix.com/logo/2096924.png" height="32" alt="ArcSight (Micro Focus)" title="ArcSight" />
   <img src="https://cdn.simpleicons.org/elastic/00A3E0" height="32" alt="Elastic" title="Elastic / ELK" />
-  <img src="https://cdn.simpleicons.org/microsoftazure" height="32" alt="Microsoft Defender / Azure" title="Microsoft Defender / Azure" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" height="32" alt="Microsoft Defender / Azure" title="Microsoft Defender / Azure" />
 
   <!-- Offensive -->
   <img src="https://cdn.simpleicons.org/kalilinux" height="32" alt="Kali Linux" title="Kali Linux" />
