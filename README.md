@@ -27,9 +27,10 @@ Driven by continuous learning and innovation, I aim to bridge defensive expertis
 
 <p align="left">
   <a href="https://tryhackme.com/p/Raizer96">
-    <img src="https://tryhackme-badges.s3.amazonaws.com/Raizer96.png" alt="TryHackMe badge for Raizer96">
+    <img src="./assets/thm-badge.png" alt="TryHackMe badge for Raizer96" width="600">
   </a>
 </p>
+
 ### Skills
 <!-- Skills – icons only -->
 <p align="left">
