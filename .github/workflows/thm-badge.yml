@@ -1,0 +1,65 @@
+name: Update THM badge
+on:
+  schedule:
+    - cron: "17 3 * * *"   # daily 03:17 UTC
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  badge:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Install Playwright
+        run: npm i playwright@1 && npx playwright install --with-deps chromium
+      - name: Render badge
+        env:
+          THM_BADGE_URL: ${{ secrets.THM_BADGE_URL }}
+        run: |
+          set -euo pipefail
+          [ -n "${THM_BADGE_URL:-}" ] || { echo "THM_BADGE_URL secret missing"; exit 1; }
+          mkdir -p assets
+          cat > page.html <<EOF
+          <!doctype html><html><body style="margin:0;background:transparent">
+          <div id="b" style="display:inline-block"><script src="${THM_BADGE_URL}"></script></div>
+          </body></html>
+          EOF
+          cat > shot.js <<'EOF'
+          const { chromium } = require("playwright");
+          (async () => {
+            const browser = await chromium.launch();
+            const page = await browser.newPage({ deviceScaleFactor: 2, viewport: { width: 1200, height: 600 } });
+            await page.goto("file://" + process.cwd() + "/page.html");
+            await page.waitForLoadState("networkidle");
+            await page.waitForTimeout(3000);
+            const box = await page.$eval("#b", el => {
+              const r = el.getBoundingClientRect();
+              return { x: r.x, y: r.y, width: r.width, height: r.height };
+            });
+            if (box.width < 50 || box.height < 50) {
+              console.error("Badge did not render, box:", JSON.stringify(box));
+              await page.screenshot({ path: "debug.png", fullPage: true });
+              process.exit(1);
+            }
+            await page.screenshot({ path: "assets/thm-badge.png", clip: box, omitBackground: true });
+            console.log("Badge rendered:", JSON.stringify(box));
+            await browser.close();
+          })().catch(e => { console.error(e); process.exit(1); });
+          EOF
+          node shot.js
+      - name: Upload debug screenshot on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: debug
+          path: debug.png
+          if-no-files-found: ignore
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/thm-badge.png
+          if git diff --cached --quiet; then echo "No change"; else git commit -m "chore: update THM badge" && git push; fi
