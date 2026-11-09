@@ -24,9 +24,12 @@ Driven by continuous learning and innovation, I aim to bridge defensive expertis
 * 🤝  I'm open to collaborating on Cyber projects / Cyber investigation / security research
 
 ### Try Hack Me
+
 <p align="left">
-<img src="https://tryhackme-badges.s3.amazonaws.com/Raizer96.png" alt="TryHackMe">
-<script src="https://tryhackme.com/badge/t/43f514bf16f97cfd2bc6eb94fb0250b8bd6735b3f9d3f7340eaa2799aa4f9abda49929c411dc0a5c233f3a39010eaa63?theme=dark"></script>
+  <a href="https://tryhackme.com/p/Raizer96">
+    <img src="https://tryhackme-badges.s3.amazonaws.com/Raizer96.png" alt="TryHackMe badge for Raizer96">
+  </a>
+</p>
 ### Skills
 <!-- Skills – icons only -->
 <p align="left">
