@@ -21,18 +21,7 @@ jobs:
         run: |
           set -euo pipefail
           [ -n "${THM_BADGE_URL:-}" ] || { echo "THM_BADGE_URL secret missing"; exit 1; }
-          mkdir -p assets work
-          cat > work/index.html <<EOF
-          <!doctype html><html><head><meta charset="utf-8"></head>
-          <body style="margin:0;padding:8px;background:transparent">
-          <script src="${THM_BADGE_URL}"></script>
-          </body></html>
-          EOF
-          # Serve over http://localhost: a file:// page has origin "null", which breaks the badge's requests.
-          python3 -m http.server 8765 --directory work >/dev/null 2>&1 &
-          SERVER_PID=$!
-          trap 'kill $SERVER_PID 2>/dev/null || true' EXIT
-          sleep 1
+          mkdir -p assets
           cat > shot.js <<'EOF'
           const { chromium } = require("playwright");
           (async () => {
@@ -43,20 +32,23 @@ jobs:
               userAgent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
             });
             const page = await ctx.newPage();
-            page.on("console", m => console.log(`[console.${m.type()}] ${m.text()}`));
             page.on("pageerror", e => console.log(`[pageerror] ${e.message}`));
             page.on("requestfailed", r => console.log(`[requestfailed] ${r.url().slice(0, 80)} ${r.failure()?.errorText}`));
             page.on("response", r => { if (r.status() >= 400) console.log(`[http ${r.status()}] ${r.url().slice(0, 80)}`); });
 
-            await page.goto("http://localhost:8765/index.html", { waitUntil: "load" });
+            // The badge URL returns a page/image, not JS: open it directly.
+            const resp = await page.goto(process.env.THM_BADGE_URL, { waitUntil: "networkidle", timeout: 45000 });
+            console.log("status:", resp?.status(), "content-type:", resp?.headers()["content-type"]);
+            console.log("title:", await page.title());
 
-            // Wait up to 20s for anything visible (not the <script>) with a real size.
             const findBox = () => page.evaluate(() => {
               let best = null;
-              for (const el of document.body.querySelectorAll("*")) {
-                if (el.tagName === "SCRIPT" || el.tagName === "STYLE") continue;
+              for (const el of document.querySelectorAll("body *")) {
+                if (["SCRIPT", "STYLE", "NOSCRIPT"].includes(el.tagName)) continue;
                 const r = el.getBoundingClientRect();
-                if (r.width >= 100 && r.height >= 50 && (!best || r.width * r.height > best.width * best.height)) {
+                const cs = getComputedStyle(el);
+                if (cs.visibility === "hidden" || cs.display === "none") continue;
+                if (r.width >= 150 && r.height >= 60 && r.width <= 1100 && (!best || r.width * r.height > best.width * best.height)) {
                   best = { x: r.x, y: r.y, width: r.width, height: r.height, tag: el.tagName };
                 }
               }
@@ -67,16 +59,17 @@ jobs:
               box = await findBox();
               if (!box) await page.waitForTimeout(500);
             }
-            await page.waitForTimeout(1500); // let fonts/images settle
+            await page.waitForTimeout(2000);
             box = (await findBox()) || box;
 
             if (!box) {
               console.error("Badge did not render.");
-              console.error("Body HTML:", (await page.content()).slice(0, 2000));
+              console.error("HTML:", (await page.content()).slice(0, 2500));
               await page.screenshot({ path: "debug.png", fullPage: true });
               process.exit(1);
             }
             console.log("Badge rendered:", JSON.stringify(box));
+            await page.screenshot({ path: "debug.png", fullPage: true });
             const { tag, ...clip } = box;
             await page.screenshot({ path: "assets/thm-badge.png", clip, omitBackground: true });
             await browser.close();
@@ -84,7 +77,7 @@ jobs:
           EOF
           node shot.js
       - name: Upload debug screenshot on failure
-        if: failure()
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: debug
