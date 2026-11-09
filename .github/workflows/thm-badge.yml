@@ -1,7 +1,8 @@
 name: Update THM badge
 on:
-  schedule:
-    - cron: "17 3 * * *"   # daily 03:17 UTC
+  # schedule disabled: tryhackme.com serves GitHub runners a Vercel bot challenge (HTTP 429)
+  # schedule:
+  #   - cron: "17 3 * * *"
   workflow_dispatch:
 permissions:
   contents: write
@@ -39,7 +40,13 @@ jobs:
             // The badge URL returns a page/image, not JS: open it directly.
             const resp = await page.goto(process.env.THM_BADGE_URL, { waitUntil: "networkidle", timeout: 45000 });
             console.log("status:", resp?.status(), "content-type:", resp?.headers()["content-type"]);
-            console.log("title:", await page.title());
+            const title = await page.title();
+            console.log("title:", title);
+            if (!resp || resp.status() >= 400 || /checkpoint|just a moment|attention required/i.test(title)) {
+              console.error("Blocked by bot protection or HTTP error; refusing to save a challenge page as the badge.");
+              await page.screenshot({ path: "debug.png", fullPage: true });
+              process.exit(1);
+            }
 
             const findBox = () => page.evaluate(() => {
               let best = null;
